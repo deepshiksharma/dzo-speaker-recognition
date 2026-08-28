@@ -1,0 +1,6 @@
+numpy==2.5.0
+pandas==3.0.3
+soundfile==0.14.0
+torch==2.13.0
+transformers==5.0.0
+tqdm==4.68.3
