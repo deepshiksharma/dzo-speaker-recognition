@@ -3,4 +3,9 @@ pandas==3.0.3
 soundfile==0.14.0
 torch==2.13.0
 transformers==5.0.0
+speechbrain==1.1.1
+matplotlib==3.11.1
+seaborn==0.13.2cls
+scikit-learn==1.9.0
+joblib==1.5.3
 tqdm==4.68.3
