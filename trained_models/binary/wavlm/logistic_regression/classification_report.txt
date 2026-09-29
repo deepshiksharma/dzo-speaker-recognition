@@ -1,0 +1,18 @@
+Model: logistic_regression
+Accuracy: 0.965457
+Balanced accuracy: 0.964261
+ROC-AUC: 0.991864
+
+Confusion matrix:
+[[ 496   20]
+ [  39 1153]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+   Non-Romeo       0.93      0.96      0.94       516
+       Romeo       0.98      0.97      0.98      1192
+
+    accuracy                           0.97      1708
+   macro avg       0.96      0.96      0.96      1708
+weighted avg       0.97      0.97      0.97      1708

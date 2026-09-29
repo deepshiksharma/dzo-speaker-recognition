@@ -1,0 +1,18 @@
+Model: rbf_svm
+Accuracy: 0.983607
+Balanced accuracy: 0.982760
+ROC-AUC: 0.998415
+
+Confusion matrix:
+[[ 506   10]
+ [  18 1174]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+   Non-Romeo       0.97      0.98      0.97       516
+       Romeo       0.99      0.98      0.99      1192
+
+    accuracy                           0.98      1708
+   macro avg       0.98      0.98      0.98      1708
+weighted avg       0.98      0.98      0.98      1708

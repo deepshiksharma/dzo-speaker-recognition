@@ -1,0 +1,18 @@
+Model: random_forest
+Accuracy: 0.981265
+Balanced accuracy: 0.977785
+ROC-AUC: 0.996841
+
+Confusion matrix:
+[[ 500   16]
+ [  16 1176]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+   Non-Romeo       0.97      0.97      0.97       516
+       Romeo       0.99      0.99      0.99      1192
+
+    accuracy                           0.98      1708
+   macro avg       0.98      0.98      0.98      1708
+weighted avg       0.98      0.98      0.98      1708

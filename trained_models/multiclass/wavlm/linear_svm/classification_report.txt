@@ -1,0 +1,28 @@
+Embedding: wavlm
+Model: linear_svm
+Accuracy: 0.960773
+Balanced accuracy: 0.884047
+Macro F1: 0.739301
+Weighted F1: 0.968673
+
+Confusion matrix:
+[[ 160    0    0    1    0    0]
+ [   0   69    1    0    0    0]
+ [   0    0    8    1    0    0]
+ [  10    9   35 1134    1    4]
+ [   1    1    0    2  269    0]
+ [   0    0    1    0    0    1]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+       Dorji       0.94      0.99      0.96       161
+      Namgay       0.87      0.99      0.93        70
+        Nima       0.18      0.89      0.30         9
+       Romeo       1.00      0.95      0.97      1193
+     Thinley       1.00      0.99      0.99       273
+      Yigzin       0.20      0.50      0.29         2
+
+    accuracy                           0.96      1708
+   macro avg       0.70      0.88      0.74      1708
+weighted avg       0.98      0.96      0.97      1708

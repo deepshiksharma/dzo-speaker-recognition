@@ -17,13 +17,14 @@ from sklearn.metrics import (
 
 
 if len(sys.argv) != 2:
-    sys.exit("Usage: python train_binary.py <wavlm|ecapa>")
+    sys.exit("Usage: python 2a_train_binary.py <wavlm|ecapa>")
 embedding_name = sys.argv[1]
 print(embedding_name)
 
 
 X = np.load(f"embeddings/{embedding_name}_embeddings.npy")
 meta = pd.read_csv(f"embeddings/{embedding_name}_embedding_index.csv")
+
 
 # keep only labeled samples
 mask = meta["speaker"] != "Unknown"
@@ -36,6 +37,7 @@ y = (meta["speaker"] == "Romeo").astype(int).values
 print("samples:", len(y))
 print("romeo:", y.sum())
 print("non-romeo:", (y == 0).sum())
+
 
 X_train, X_test, y_train, y_test = train_test_split(
     X, y,

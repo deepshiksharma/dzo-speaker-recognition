@@ -8,4 +8,6 @@ matplotlib==3.11.1
 seaborn==0.13.2cls
 scikit-learn==1.9.0
 joblib==1.5.3
+umap-learn==0.5.12
+plotly==7.0.0
 tqdm==4.68.3

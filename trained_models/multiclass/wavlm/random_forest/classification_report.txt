@@ -1,0 +1,28 @@
+Embedding: wavlm
+Model: random_forest
+Accuracy: 0.981850
+Balanced accuracy: 0.755523
+Macro F1: 0.796021
+Weighted F1: 0.979939
+
+Confusion matrix:
+[[ 154    0    0    7    0    0]
+ [   0   69    0    1    0    0]
+ [   0    0    1    8    0    0]
+ [   8    2    0 1182    1    0]
+ [   1    0    0    2  270    0]
+ [   0    0    0    1    0    1]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+       Dorji       0.94      0.96      0.95       161
+      Namgay       0.97      0.99      0.98        70
+        Nima       1.00      0.11      0.20         9
+       Romeo       0.98      0.99      0.99      1193
+     Thinley       1.00      0.99      0.99       273
+      Yigzin       1.00      0.50      0.67         2
+
+    accuracy                           0.98      1708
+   macro avg       0.98      0.76      0.80      1708
+weighted avg       0.98      0.98      0.98      1708

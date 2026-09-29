@@ -17,14 +17,14 @@ from sklearn.metrics import (
 
 
 if len(sys.argv) != 2:
-    sys.exit("Usage: python train_multiclass.py <wavlm|ecapa>")
-
+    sys.exit("Usage: python 2b_train_multiclass.py <wavlm|ecapa>")
 embedding_name = sys.argv[1]
 print("embeddings:", embedding_name)
 
 
 X = np.load(f"embeddings/{embedding_name}_embeddings.npy")
 meta = pd.read_csv(f"embeddings/{embedding_name}_embedding_index.csv")
+
 
 # keep only labeled samples
 mask = meta["speaker"] != "Unknown"
@@ -38,6 +38,7 @@ y = meta["speaker"].to_numpy(dtype=str)
 print("\nspeaker counts:")
 print(meta["speaker"].value_counts())
 
+
 X_train, X_test, y_train, y_test = train_test_split(
     X, y,
     test_size=0.25,
@@ -45,11 +46,10 @@ X_train, X_test, y_train, y_test = train_test_split(
     stratify=y
 )
 
+class_names = sorted(np.unique(y))
+
 print("\ntrain samples:", len(X_train))
 print("test samples:", len(X_test))
-
-
-class_names = sorted(np.unique(y))
 
 
 def train_and_evaluate(model, model_name):

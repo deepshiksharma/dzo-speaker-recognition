@@ -1,0 +1,28 @@
+Embedding: ecapa
+Model: rbf_svm
+Accuracy: 0.999415
+Balanced accuracy: 0.981481
+Macro F1: 0.990126
+Weighted F1: 0.999397
+
+Confusion matrix:
+[[ 161    0    0    0    0    0]
+ [   0   70    0    0    0    0]
+ [   0    0    8    1    0    0]
+ [   0    0    0 1193    0    0]
+ [   0    0    0    0  273    0]
+ [   0    0    0    0    0    2]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+       Dorji       1.00      1.00      1.00       161
+      Namgay       1.00      1.00      1.00        70
+        Nima       1.00      0.89      0.94         9
+       Romeo       1.00      1.00      1.00      1193
+     Thinley       1.00      1.00      1.00       273
+      Yigzin       1.00      1.00      1.00         2
+
+    accuracy                           1.00      1708
+   macro avg       1.00      0.98      0.99      1708
+weighted avg       1.00      1.00      1.00      1708

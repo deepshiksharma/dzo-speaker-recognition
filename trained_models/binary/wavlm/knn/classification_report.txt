@@ -1,0 +1,18 @@
+Model: knn
+Accuracy: 0.978923
+Balanced accuracy: 0.967864
+ROC-AUC: 0.991372
+
+Confusion matrix:
+[[ 485   31]
+ [   5 1187]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+   Non-Romeo       0.99      0.94      0.96       516
+       Romeo       0.97      1.00      0.99      1192
+
+    accuracy                           0.98      1708
+   macro avg       0.98      0.97      0.97      1708
+weighted avg       0.98      0.98      0.98      1708

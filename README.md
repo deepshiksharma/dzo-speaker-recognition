@@ -37,7 +37,7 @@ Extracting embeddings for each recording provides a common representation for ev
 [TO-DO]
 
 
-## Step 5: Identifying likely Romeo recordings from the unlabeled clips
+## Step 5: Identify and assign likely Romeo recordings from unlabeled clips
 [TO-DO]
 
 

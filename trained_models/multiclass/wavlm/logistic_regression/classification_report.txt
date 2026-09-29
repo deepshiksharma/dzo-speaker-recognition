@@ -1,0 +1,28 @@
+Embedding: wavlm
+Model: logistic_regression
+Accuracy: 0.953747
+Balanced accuracy: 0.925670
+Macro F1: 0.713128
+Weighted F1: 0.963627
+
+Confusion matrix:
+[[ 159    0    0    2    0    0]
+ [   0   68    1    1    0    0]
+ [   0    2    6    1    0    0]
+ [  11    9   31 1125    1   16]
+ [   1    1    0    2  269    0]
+ [   0    0    0    0    0    2]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+       Dorji       0.93      0.99      0.96       161
+      Namgay       0.85      0.97      0.91        70
+        Nima       0.16      0.67      0.26         9
+       Romeo       0.99      0.94      0.97      1193
+     Thinley       1.00      0.99      0.99       273
+      Yigzin       0.11      1.00      0.20         2
+
+    accuracy                           0.95      1708
+   macro avg       0.67      0.93      0.71      1708
+weighted avg       0.98      0.95      0.96      1708

@@ -1,0 +1,28 @@
+Embedding: wavlm
+Model: knn
+Accuracy: 0.976581
+Balanced accuracy: 0.716145
+Macro F1: 0.751361
+Weighted F1: 0.973737
+
+Confusion matrix:
+[[ 150    0    0   11    0    0]
+ [   0   62    0    7    1    0]
+ [   0    1    0    8    0    0]
+ [   4    2    0 1186    1    0]
+ [   1    0    0    3  269    0]
+ [   0    0    0    1    0    1]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+       Dorji       0.97      0.93      0.95       161
+      Namgay       0.95      0.89      0.92        70
+        Nima       0.00      0.00      0.00         9
+       Romeo       0.98      0.99      0.98      1193
+     Thinley       0.99      0.99      0.99       273
+      Yigzin       1.00      0.50      0.67         2
+
+    accuracy                           0.98      1708
+   macro avg       0.81      0.72      0.75      1708
+weighted avg       0.97      0.98      0.97      1708
