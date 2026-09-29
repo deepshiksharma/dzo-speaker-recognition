@@ -1,0 +1,23 @@
+Embedding: ecapa
+Method: agglomerative
+Samples: 6832
+True speakers: 6
+Clusters found: 6
+Noise points: 0
+
+ARI: 0.960433
+NMI: 0.902636
+Homogeneity: 0.885000
+Completeness: 0.920989
+V-measure: 0.902636
+Silhouette: 0.277625
+
+Speaker vs cluster:
+cluster   0    1     2     3   4  5
+speaker                            
+Dorji     0  645     0     0   0  0
+Namgay   15  143     0    24  99  0
+Nima      0    0    37     0   0  0
+Romeo    30    0  4740     0   0  0
+Thinley   0    0     0  1090   0  0
+Yigzin    0    0     0     0   0  9

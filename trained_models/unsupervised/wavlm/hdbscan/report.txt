@@ -1,0 +1,23 @@
+Embedding: wavlm
+Method: hdbscan
+Samples: 6832
+True speakers: 6
+Clusters found: 2
+Noise points: 17
+
+ARI: 0.058381
+NMI: 0.096056
+Homogeneity: 0.052749
+Completeness: 0.536672
+V-measure: 0.096056
+Silhouette: 0.788061
+
+Speaker vs cluster:
+cluster  -1     0   1
+speaker              
+Dorji     1   644   0
+Namgay    3   181  97
+Nima      0    37   0
+Romeo    12  4758   0
+Thinley   0  1090   0
+Yigzin    1     8   0

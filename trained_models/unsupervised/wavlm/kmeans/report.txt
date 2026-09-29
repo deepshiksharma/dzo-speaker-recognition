@@ -1,0 +1,23 @@
+Embedding: wavlm
+Method: kmeans
+Samples: 6832
+True speakers: 6
+Clusters found: 6
+Noise points: 0
+
+ARI: 0.272158
+NMI: 0.458070
+Homogeneity: 0.628012
+Completeness: 0.360513
+V-measure: 0.458070
+Silhouette: 0.231318
+
+Speaker vs cluster:
+cluster    0   1     2     3     4     5
+speaker                                 
+Dorji    551   0    85     1     4     4
+Namgay    90  99    19    19    31    23
+Nima       1   0     3     1    15    17
+Romeo    182   0  1446    50  1704  1388
+Thinley    5   0    61  1017     4     3
+Yigzin     0   0     0     0     8     1

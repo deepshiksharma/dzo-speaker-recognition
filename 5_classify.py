@@ -13,7 +13,7 @@ OUTPUT_DIR = "classified"
 ROMEO_DIR = os.path.join(OUTPUT_DIR, "romeo")
 NON_ROMEO_DIR = os.path.join(OUTPUT_DIR, "non_romeo")
 
-MODEL_DIR = "trained_models/final"
+MODEL_DIR = "trained_models"
 MODEL_PATH = os.path.join(MODEL_DIR, "ecapa_rbf_svm.joblib")
 
 PREDICTIONS_PATH = os.path.join(

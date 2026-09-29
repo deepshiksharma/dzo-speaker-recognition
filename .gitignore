@@ -1,4 +1,5 @@
 dataset/
 utils/
 classified/
+trained_models/final/
 *.joblib

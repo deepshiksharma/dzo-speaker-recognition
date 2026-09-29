@@ -1,0 +1,23 @@
+Embedding: ecapa
+Method: hdbscan
+Samples: 6832
+True speakers: 6
+Clusters found: 13
+Noise points: 342
+
+ARI: 0.897072
+NMI: 0.856753
+Homogeneity: 0.946340
+Completeness: 0.782660
+V-measure: 0.856753
+Silhouette: 0.244090
+
+Speaker vs cluster:
+cluster  -1    0    1    2    3    4    5    6    7     8    9    10    11   12
+speaker                                                                        
+Dorji     28    0    0    0    0    0    0    0    0     0    0    0     0  617
+Namgay    30   26   10   32   10  142    0    0   20     0    0   11     0    0
+Nima      16    0    0    0    0    0   15    6    0     0    0    0     0    0
+Romeo    245    0    0    0    0    0    0    0    0     0    0    0  4525    0
+Thinley   21    0    0    0    0    0    0    0    0  1069    0    0     0    0
+Yigzin     2    0    0    0    0    0    0    0    0     0    7    0     0    0
